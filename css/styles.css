@@ -16,6 +16,10 @@ body {
   }
 }
 
+main, article {
+  max-width: 80ch;
+}
+
 h1, h2, h3, p {
   margin: 0 0 1.3rem;
 }
@@ -43,8 +47,9 @@ a:hover {
   opacity: 0.6;
 }
 
-main, article {
-  max-width: 80ch;
+ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 [role="note"] {
