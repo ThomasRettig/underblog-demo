@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>{{ .Title }}</title>
+  </head>
+  <body>
+    <nav>
+      <p><a href="../..">Homepage</a></p>
+    </nav>
+    <article>
+      {{ .Body }}
+      <p role="note">Published: <time>{{ .Date.Format "Jan 02, 2006" }}</time></p>
+    </article>
+  </body>
+</html>
