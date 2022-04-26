@@ -2,14 +2,15 @@
 This is a simple boilerplate template for [Underblog](https://github.com/freetonik/underblog), a simple static site generator written in Go.
 
 ## Running locally
-From the root of the project directory, run the following:
+1. Make sure that Underblog is successfully installed on your machine. Download the appropriate binary from the [Github repo](https://github.com/freetonik/underblog/releases/tag/v0.2.3), and then add the folder containing the `.exe` to PATH.
 
-```cmd
-:: dynamically compile and serve static files with a localhost server at port 8080
-underblog -watch
+2. From the root of the project directory, run the following:
+
+```bash
+$ underblog -watch
 ```
 
-Underblog watches for file changes and will automatically reload.
+A localhost server will start at https://localhost:8080/. Underblog watches for file changes and will automatically rebuild the HTML.
 
-## License
+### License
 The code in this repository is MIT licensed.
